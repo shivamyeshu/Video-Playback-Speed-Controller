@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Video Playback Speed Controller",
+    "version": "1.0",
+    "description": "Change the playback speed of any HTML5 video",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    }
+  }
+  
